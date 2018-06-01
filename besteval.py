@@ -7,7 +7,7 @@ with open ("models.txt", "w") as out:
 		os.system("./trec_terrier.sh -r -Dtrec.model=" + model)
 		os.system("./trec_terrier.sh -e")
 
-		with open("/home/beloboro/terrier-4.0/var/results/my.eval") as f:
+		with open("~/terrier-4.0/var/results/my.eval") as f:
 			lines = f.readlines()
 			for line in lines:
 				if "10 :" in line:
