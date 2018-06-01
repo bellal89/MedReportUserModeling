@@ -10,7 +10,7 @@ That's why, for proper using this script you need to
 The data can be found at CLEF eHealth track: https://sites.google.com/site/clefehealth2014/.
 
 After you have the data and the Terrier search engine working, use the script in following way:
-'''
-python ds_qu_expand.py medical_reports_dir queries_fn
-'''
+
+	python ds_qu_expand.py medical_reports_dir queries_fn
+
 To detect the best Terrier ranking function use the besteval.py script.
